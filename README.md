@@ -16,7 +16,7 @@ LightKernel is a community-driven kernel project aiming to provide a simple, edu
 ## 🛠️ Getting Started
 1. **Clone the repository:**
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/zet-pyr/LightKernel/blob/main/README.md.git
    cd LightKernel
    ```
 2. **Read the documentation:**
