@@ -1,6 +1,6 @@
 # zetchatori
 
-**Name:** zetchatori (GitHub)  
+**Name:** zetchatori (Discord)  
 **Role:** Creator, Lead Developer  
 **Contributions:**  
 - Initial creation and design of the LightKernel project
