@@ -1,44 +1,160 @@
 # LightKernel
 
 <p align="center">
-  <img src="assets/logo/logo.png" alt="LightKernel Logo" width="180"/>
+  <img src="assets/logo/logo.png" alt="LightKernel Logo" width="200"/>
 </p>
 
-**LightKernel – When minds unite, even the smallest light can guide the world.**
+<p align="center">
+  <strong>When minds unite, even the smallest light can guide the world.</strong>
+</p>
 
-Welcome to LightKernel, an open-source kernel project built by and for the community. Whether you are passionate about operating systems, low-level programming, or just want to learn and contribute, you are welcome here!
-
-## 🚀 What is LightKernel?
-LightKernel is a community-driven kernel project aiming to provide a simple, educational, and extensible operating system core. Our goal is to create a platform where contributors can learn, experiment, and innovate together.
-
-## ✨ Features
-- Modular and extensible architecture
-- Multi-platform support (x86_64, ARM64, RISC-V, etc.)
-- Clean and well-documented codebase
-- Open to all contributors, regardless of experience
-- Focus on learning, collaboration, and innovation
-- Transparent and community-oriented development
-
-## 🛠️ Getting Started
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/zet-pyr/LightKernel.git
-   cd LightKernel
-   ```
-2. **Read the documentation:**
-   Check the `docs/` folder (if available) and the code comments for guidance.
-3. **Build and run:**
-   Use the provided `build.sh` script or follow the instructions in the project to build and test the kernel (see `CONTRIBUTING.md`).
-
-## 🤝 Contributing
-We welcome all contributions! Please read the [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines. If you contribute, add yourself to the credits by following the template in [`CREDITS/model.md`](CREDITS/model.md) and placing your file in `CREDITS/USERS/`.
-
-## 🙏 Acknowledgements
-Every contributor is valued. Thank you for helping LightKernel grow!
-
-## 📜 License
-This project is licensed under the Community Open Source License. See the [LICENSE](LICENSE) file for details.
+<p align="center">
+  <a href="#-features">Features</a> •
+  <a href="#-quick-start">Quick Start</a> •
+  <a href="#-documentation">Documentation</a> •
+  <a href="#-contributing">Contributing</a> •
+  <a href="#-community">Community</a>
+</p>
 
 ---
 
-*LightKernel is powered by the community. Join us and help light the way!*
+## 🌟 What is LightKernel?
+
+LightKernel is a **community-driven, educational kernel project** designed to democratize operating system development. We believe that kernel programming shouldn't be an exclusive domain – it should be accessible to anyone curious about how computers work at their core.
+
+Our mission is to create a **simple, well-documented, and extensible** operating system kernel that serves as both a learning platform and a foundation for innovation.
+
+## ✨ Features
+
+### 🏗️ Architecture
+- **Modular design** - Clean separation of concerns with pluggable components
+- **Multi-platform support** - x86_64, ARM64, RISC-V (more platforms coming!)
+- **Microkernel approach** - Minimal kernel with userspace services
+
+### 📚 Developer Experience
+- **Crystal-clear documentation** - Every function, every concept explained
+- **Interactive tutorials** - Step-by-step guides for kernel development
+- **Extensive testing suite** - Automated testing for reliability
+- **Modern toolchain** - Support for latest compilers and debugging tools
+
+### 🎯 Learning Focus
+- **Educational by design** - Code optimized for understanding, not just performance
+- **Progressive complexity** - Start simple, gradually explore advanced topics
+- **Real-world examples** - Practical implementations of OS concepts
+
+## 🚀 Quick Start
+
+### Prerequisites
+- GCC or Clang compiler
+- NASM assembler
+- QEMU (for testing)
+- Git
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/zet-pyr/LightKernel.git
+cd LightKernel
+
+# Install dependencies (Ubuntu/Debian)
+sudo apt update
+sudo apt install build-essential nasm qemu-system-x86 git
+
+# Build the kernel
+./scripts/build.sh
+
+# Run in QEMU
+./scripts/run.sh
+```
+
+### Your First Boot
+After running the commands above, you should see LightKernel boot in QEMU! 🎉
+
+## 📖 Documentation
+
+| Resource | Description |
+|----------|-------------|
+| [**Getting Started Guide**](docs/getting-started.md) | Your first steps with LightKernel |
+| [**Architecture Overview**](docs/architecture.md) | High-level system design |
+| [**API Reference**](docs/api/) | Complete function documentation |
+| [**Tutorials**](docs/tutorials/) | Step-by-step learning modules |
+| [**Development Guide**](docs/development.md) | Advanced development topics |
+
+## 🤝 Contributing
+
+We welcome contributors of **all skill levels**! Whether you're a seasoned kernel developer or just starting your journey in systems programming, there's a place for you here.
+
+### How to Contribute
+
+1. **🔍 Explore** - Browse our [good first issues](https://github.com/zet-pyr/LightKernel/labels/good%20first%20issue)
+2. **📋 Plan** - Read our [Contributing Guidelines](CONTRIBUTING.md)
+3. **💻 Code** - Make your changes and test thoroughly
+4. **📤 Submit** - Create a pull request with clear description
+5. **🏆 Celebrate** - Add yourself to [CREDITS/USERS/](CREDITS/USERS/) following the [template](CREDITS/model.md)
+
+### Contribution Areas
+
+- **🔧 Core Development** - Kernel features, drivers, system calls
+- **📝 Documentation** - Tutorials, guides, code comments
+- **🧪 Testing** - Unit tests, integration tests, bug reports
+- **🎨 Tooling** - Build scripts, debugging tools, utilities
+- **🌍 Outreach** - Blog posts, presentations, community building
+
+## 🏆 Project Stats
+
+![GitHub stars](https://img.shields.io/github/stars/zet-pyr/LightKernel?style=social)
+![GitHub forks](https://img.shields.io/github/forks/zet-pyr/LightKernel?style=social)
+![GitHub issues](https://img.shields.io/github/issues/zet-pyr/LightKernel)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/zet-pyr/LightKernel)
+
+## 🌐 Community
+
+Join our vibrant community of kernel enthusiasts!
+
+- **💬 Discussions** - [GitHub Discussions](https://github.com/zet-pyr/LightKernel/discussions)
+- **🐛 Issues** - [Report bugs](https://github.com/zet-pyr/LightKernel/issues/new?template=bug_report.md)
+- **💡 Feature Requests** - [Suggest features](https://github.com/zet-pyr/LightKernel/issues/new?template=feature_request.md)
+- **📧 Mailing List** - [kernel-dev@lightkernel.org](mailto:kernel-dev@lightkernel.org)
+
+## 🎯 Roadmap
+
+### Phase 1: Foundation (Current)
+- [x] Basic boot process
+- [x] Memory management
+- [ ] Process management
+- [ ] Basic I/O system
+
+### Phase 2: Expansion
+- [ ] Networking stack
+- [ ] Filesystem support
+- [ ] GUI subsystem
+- [ ] Package manager
+
+### Phase 3: Innovation
+- [ ] Container support
+- [ ] WebAssembly runtime
+- [ ] AI acceleration
+- [ ] Edge computing features
+
+## 🙏 Acknowledgements
+
+LightKernel exists because of our amazing community. Every contributor, from first-time committers to veteran developers, plays a vital role in our success.
+
+**Special thanks to all our contributors:**
+- [View all contributors](https://github.com/zet-pyr/LightKernel/graphs/contributors)
+- [Community credits](CREDITS/USERS/)
+
+## 📜 License
+
+This project is licensed under the **Community Open Source License**. See the [LICENSE](LICENSE) file for complete details.
+
+---
+
+<p align="center">
+  <strong>🚀 Ready to dive into kernel development? <a href="docs/getting-started.md">Start your journey here!</a></strong>
+</p>
+
+<p align="center">
+  <em>LightKernel is powered by the community. Join us and help light the way! ✨</em>
+</p>
