@@ -2,7 +2,7 @@
 %define KSIZE  1  ; nombre de secteurs de 512 octets a charger
 
 [BITS 16]
-[ORG 0x0]
+[ORG 0x7C00]
 
 jmp start
 %include "UTIL.INC"
